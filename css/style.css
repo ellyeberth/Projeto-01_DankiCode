@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+html,
+body {
+    max-width: 100%;
+    height: 100%;
+}
+/*
+    Cabeçalio da Pagina
+*/
+header {
+    height: 0 auto;
+    padding: 2% 4%;
+    background-color: #212343;
+}
+/*
+    Fim Cabeçalio da Pagina
+*/
+
+
+/*
+    1ª Seção Container-Banner e Formulário
+*/
+section.section-1 {
+    width: 100%;
+    height: 477px;
+    padding: 4%;
+    background-image: url(../img/header_bg.png);
+    background-size: cover;
+    background-position: center;
+}
+section.section-1 div {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    margin-top: 2%;
+    padding-left: 2%;
+    background-color: rgba(33, 35, 67, 0.7);
+    font-size: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 2.5;
+    color: #FFFFFF;
+}
+section.section-1 div ul li{
+   list-style: inside;
+}
+section.section-1 form {
+    width: 40%;
+    height: 540px;
+    float: right;
+    margin-top: -8%;
+    padding: 5px;
+    background-color: #FFFFFF;
+    background-clip: padding-box;
+    font-family: 'Open Sans', sans-serif;
+    border: 7px solid rgba(207, 210, 255, 0.5);
+    border-radius: 5px;
+}
+section.section-1 form h1 {
+    margin-bottom: 5%;
+    font-size: 25px;
+    color: #212343;
+    text-align: center;
+}
+section.section-1 form h3 {
+    padding-left: 1%;
+    margin-left: 2%;
+    font-size: 18px;
+    color: #212343;
+}
+section.section-1 form input {
+    width: 95%;
+    height: 8%;
+    margin: 2% 0px 4% 2%;
+    padding: 10px;
+    font-size: 18px;
+    outline: #212343;
+    color: rgb(100, 100, 100);
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 5px;
+}
+section.section-1 form input[type=submit] {
+    width: 70%;
+    height: 10%;
+    display: block;
+    cursor: pointer;
+    margin: 8% auto;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #212343;
+    border-radius: 5px;
+    transition: all 0.7s ease;
+}
+section.section-1 form input[type=submit]:hover{
+    background-color: #1a1c33;
+    transition: all 0.5s ease;
+}
+.clear {
+    clear: both;
+}
+/*
+    Fim fa 1ª Seção Container-Banner e Formulário
+*/
+
+
+/*
+    2ª Seção Texto Lorem Ipsum
+*/
+section.section-2 {
+    width: 100%;
+    height: auto;
+    padding: 4% 0%;
+    background-color: rgb(200, 200, 200);
+    text-align: center;
+}
+section.section-2 h1 {
+    padding: 1% 0%;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 25px;
+}
+section.section-2 p {
+    padding: 0% 15%;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    text-indent: 50px;
+}
+/*
+    Fim da 2ª Seção Texto Lorem Ipsum
+*/
+
+
+/*
+    3ª Seção Imagens
+*/
+section.section-3 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15%;
+    background-color: #FFFFFF;
+    border: 1px solid transparent;
+}
+section.section-3 div.arrow{
+    width: 100%;
+    height: 35px;
+}
+section.section-3 div.arrow img{
+    width: 35px;
+    height: 35px;
+    display: block;
+    margin: 0 auto;
+    margin-top: -1%;
+}
+section.section-3 h1{
+    padding: 5% 0%;
+    font-size: 25px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #212343;
+    text-align: center;
+}
+section.section-3 div.icon{
+    height: auto;
+    display: inline-block;
+    margin-right: -4px;
+    width: 33.33%;
+}
+section.section-3 div.icon img{
+    display: block;
+    margin: 0 auto;
+}
+section.section-3 div.icon h1{
+    font-size: 18px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #000000;
+}
+section.section-3 div.icon p{
+    padding: 0% 15% ;
+    font-size: 14px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #000000;
+    text-align: center;
+}
+/*
+    Fim da 3ª Seção Imagens
+*/
+
+
+/*
+    Rodapé - Footer
+*/
+footer{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 1%;
+    vertical-align: bottom;
+    border-top: 2px solid #212343;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #212343;
+}
+/*
+    Fim Rodapé - Footer
+*/
+
+/*
+    INICIO DE MEDIA
+*/
+
+@media screen and (max-width: 1200px){
+    section.section-1 div {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    
+    section.section-1 form {
+        height: 500px;
+    }
+    section.section-1 form h1 {
+        font-size: 20px;
+    }
+    section.section-1 form h3 {
+        font-size: 18px;
+    }
+}
+/*
+    FIM DE MEDIA
+*/
